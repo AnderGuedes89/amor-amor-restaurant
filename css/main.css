@@ -1,0 +1,50 @@
+Dark #9b0000
+#d50000
+Light #ff5131
+
+:root {
+    --white: #ffffff;
+    --light-gray: #f2f2f2;
+    --dark-gray: #666666;
+    --light-green: rgba(30, 152, 29, 0.25);
+    --green: #1e981d;
+    --dark-green: #1da83f;
+    --dark-yellow: #f9a825;
+    --light-orange: rgba(249, 168, 37, 0.25);
+    --dark-orange: #f57c00;
+    --red: #ed1c24;
+    --dark-red: #dc3545;
+    --light-blue: #0077db;
+    --dark-blue: #2a579a;
+    --black: #212121;
+  }
+
+  background: var(--light-gray) !important;
+
+/* Navbar */
+.navbar-up {
+  height: 6vh;
+  background-color: #9b0000;
+}
+
+.navbar--teste {
+  background-color: #d50000;
+
+}
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+body {
+  min-height: 1200px;
+}
+nav {
+  background: #eaebec;
+  min-height: 85px;
+}
