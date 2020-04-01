@@ -75,7 +75,7 @@ footer {
 .navbar-primary {
   background-color: var(--red);
   color: var(--white);
-  min-height: 85px;
+  min-height: 4rem;
 }
 
 .navbar-primary .navbar-brand {
@@ -103,6 +103,27 @@ footer {
   top: 0;
   z-index: 1000;
   width: 100%;
+}
+
+/* Header */
+.header {
+	background-image: url(../assets/images/image-header.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+.image-header {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  height: auto;
+  width: 40%
 }
 
 /* Menu */
