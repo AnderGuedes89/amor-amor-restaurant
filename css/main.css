@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
 :root {
   --white: #ffffff;
   --black: #000000;
@@ -13,9 +16,6 @@ body {
   font-size: 14px;
   min-height: 100vh;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 /* Common */
 .content-section {
@@ -46,17 +46,6 @@ body {
 .center-things {
   display: flex;
   justify-content: center;
-}
-
-footer .copyright {
-  text-align: center;
-  font-size: 1rem;
-  color: var(--white);
-}
-
-footer {
-  height: 10vh;
-  background: var(--black);
 }
 
 /* Navbar */
@@ -196,4 +185,20 @@ footer {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+}
+
+/* Location */
+.location-text {
+  margin-bottom: 0;
+}
+
+/* Footer */
+footer .copyright {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+footer {
+  height: 10vh;
+  background: var(--black);
 }
