@@ -80,6 +80,7 @@ body {
   padding-left: 1.5%;
   color: var(--white);
   font-family: "montserrat-bold", serif;
+  font-size: 0.8rem;
 }
 
 .navbar-brand {
@@ -133,22 +134,13 @@ body {
 .logo-header {
   display: block;
   font-size: 9rem;
-  line-height: 1.133;
   color: #ffffff;
   font-family: "montserrat-bold", serif;
-  letter-spacing: 5px;
-  padding-top: 3rem;
+  letter-spacing: 2.5px;
+  padding-top: 5.5rem;
 }
 
 /* Menu */
-.portfolio-item {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
-}
-
 .menu-item .caption {
   display: flex;
   height: 100%;
@@ -158,6 +150,7 @@ body {
   top: 0;
   bottom: 0;
   z-index: 1;
+  /* cursor: pointer; */
 }
 
 .menu-item .caption .caption-content {
@@ -223,11 +216,6 @@ body {
   font-family: "montserrat-bold", serif;
   letter-spacing: 2px;
   font-size: 1.2rem;
-}
-
-.location-item {
-  color: var(--white);
-  font-family: "montserrat-bold", serif;
   padding-top: 1rem;
 }
 
@@ -258,65 +246,464 @@ footer {
 footer .copyright {
   font-size: 1rem;
   color: var(--white);
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
-.cardBox {
-  perspective: 500px;
-  margin: 15px;
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .navbar-higher {
+    height: 4vh;
+  }
+
+  .navbar-higher p {
+    padding-top: 1.5%;
+    font-size: 0.8rem;
+  }
+
+  .navbar-primary {
+    min-height: 4rem;
+  }
+
+  .navbar-primary .navbar-brand {
+    font-size: 1.15rem;
+  }
+
+  .navbar-primary .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .content-section .section-title-odd {
+    font-size: 1.3rem;
+  }
+
+  .content-section .section-title-even {
+    font-size: 1.3rem;
+  }
+
+  .content-section .section-text {
+    font-size: 0.9rem;
+  }
+
+  .content-section .section-text {
+    font-size: 0.9rem;
+  }
+
+  .logo-header {
+    font-size: 2.8rem;
+    padding-top: 13.5rem;
+  }
+
+  .menu-item .caption .caption-content p {
+    font-size: 0.85rem;
+  }
+
+  .location-item {
+    font-size: 0.8rem;
+  }
+
+  .location-text {
+    font-size: 0.7rem;
+  }
+
+  .location-text--down {
+    font-size: 0.7rem;
+  }
+
+  .location-text--last {
+    font-size: 0.7rem;
+  }
+
+  footer {
+    height: 6vh;
+  }
+
+  footer .copyright {
+    font-size: 0.7rem;
+    padding-top: 1rem;
+  }
 }
 
-.cardBoxItem {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background: #fff;
-  transform-style: preserve-3d;
-  transition: 1s;
-  box-shadow: 0px 30px 30px rgb(0, 0, 0, 0.5);
-  border-top-left-radius: 20%;
-  border-top-right-radius: none;
-  border-bottom-left-radius: none;
-  border-bottom-right-radius: 20%;
+@media only screen and (min-width: 481px) and (max-width: 595px) {
+  .navbar-higher {
+    height: 4vh;
+  }
+
+  .navbar-higher p {
+    padding-top: 1.5%;
+    font-size: 0.8rem;
+  }
+
+  .navbar-primary {
+    min-height: 4rem;
+  }
+
+  .navbar-primary .navbar-brand {
+    font-size: 1.15rem;
+  }
+
+  .navbar-primary .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .content-section .section-title-odd {
+    font-size: 1.3rem;
+  }
+
+  .content-section .section-title-even {
+    font-size: 1.3rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1rem;
+  }
+
+  .logo-header {
+    font-size: 3.3rem;
+    padding-top: 13.5rem;
+  }
+
+  .menu-item .caption .caption-content p {
+    font-size: 1rem;
+  }
+
+  .location-item {
+    font-size: 0.9rem;
+  }
+
+  .location-text {
+    font-size: 0.8rem;
+  }
+
+  .location-text--down {
+    font-size: 0.8rem;
+  }
+
+  .location-text--last {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    height: 6vh;
+  }
+
+  footer .copyright {
+    font-size: 0.8rem;
+    padding-top: 0.9rem;
+  }
 }
 
-.facebook {
-  background: #3b5998;
+@media only screen and (min-width: 596px) and (max-width: 690px) {
+  .navbar-higher {
+    height: 4vh;
+  }
+
+  .navbar-higher p {
+    padding-top: 1.5%;
+    font-size: 0.8rem;
+  }
+
+  .navbar-primary {
+    min-height: 4rem;
+  }
+
+  .navbar-primary .navbar-brand {
+    font-size: 1.15rem;
+  }
+
+  .navbar-primary .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .content-section .section-title-odd {
+    font-size: 1.3rem;
+  }
+
+  .content-section .section-title-even {
+    font-size: 1.3rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1rem;
+  }
+
+  .logo-header {
+    font-size: 4.8rem;
+    padding-top: 13.5rem;
+  }
+
+  .menu-item .caption .caption-content p {
+    font-size: 0.85rem;
+  }
+
+  .location-item {
+    font-size: 0.9rem;
+  }
+
+  .location-text {
+    font-size: 0.8rem;
+  }
+
+  .location-text--down {
+    font-size: 0.8rem;
+  }
+
+  .location-text--last {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    height: 6vh;
+  }
+
+  footer .copyright {
+    font-size: 0.8rem;
+    padding-top: 0.9rem;
+  }
 }
 
-.instagram {
-  background: #db4437;
+@media only screen and (min-width: 691px) and (max-width: 800px) {
+  .navbar-higher {
+    height: 4vh;
+  }
+
+  .navbar-higher p {
+    padding-top: 1.5%;
+    font-size: 0.8rem;
+  }
+
+  .navbar-primary {
+    min-height: 5rem;
+  }
+
+  .navbar-primary .navbar-brand {
+    font-size: 1.15rem;
+  }
+
+  .navbar-primary .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .logo-header {
+    font-size: 6rem;
+    padding-top: 13.5rem;
+  }
+
+  .location-item {
+    font-size: 1rem;
+  }
+
+  .location-text {
+    font-size: 0.8rem;
+  }
+
+  .location-text--down {
+    font-size: 0.8rem;
+  }
+
+  .location-text--last {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    height: 6vh;
+  }
+
+  footer .copyright {
+    font-size: 0.9rem;
+    padding-top: 1rem;
+  }
 }
 
-.card-front,
-.card-back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  color: #fff;
-  backface-visibility: hidden;
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
+  .navbar-higher {
+    height: 3vh;
+  }
+
+  .logo-header {
+    padding-top: 28.5rem !important;
+  }
+
+  footer {
+    height: 5vh;
+  }
 }
 
-.card-front {
-  display: flex;
-  font-size: 20px;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  .navbar-higher p {
+    padding-top: 1.2%;
+    font-size: 0.8rem;
+  }
+
+  .navbar-primary {
+    min-height: 5rem;
+  }
+
+  .navbar-primary .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-primary .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .logo-header {
+    font-size: 7rem;
+    padding-top: 8.5rem;
+  }
+
+  .content-section .section-title-odd {
+    font-size: 1.5rem;
+  }
+
+  .content-section .section-title-even {
+    font-size: 1.5rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1rem;
+  }
+
+  .menu-item .caption .caption-content p {
+    font-size: 0.9rem;
+  }
+
+  .location-item {
+    font-size: 1rem;
+  }
+
+  .location-text {
+    font-size: 0.8rem;
+  }
+
+  .location-text--down {
+    font-size: 0.8rem;
+  }
+
+  .location-text--last {
+    font-size: 0.8rem;
+  }
+
+  footer .copyright {
+    font-size: 0.9rem;
+    padding-top: 1.5rem;
+  }
 }
 
-.card-back {
-  display: flex;
-  font-size: 20px;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+  .navbar-higher p {
+    padding-top: 1%;
+    font-size: 1rem;
+  }
+
+  .navbar-primary {
+    min-height: 5rem;
+  }
+
+  .navbar-primary .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-primary .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .logo-header {
+    font-size: 10rem;
+    padding-top: 11.5rem;
+  }
+
+  .content-section .section-title-odd {
+    font-size: 2rem;
+  }
+
+  .content-section .section-title-even {
+    font-size: 2rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1.3rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1.3rem;
+  }
+
+  footer .copyright {
+    font-size: 1.3rem;
+    padding-top: 1.5rem;
+  }
 }
 
-.cardBox:hover .card {
-  transform: rotateY(180deg);
-}
+@media only screen and (min-width: 1825px) and (max-width: 1920px) {
+  .navbar-higher p {
+    padding-top: 1%;
+    font-size: 1.1rem;
+  }
 
-.card-back {
-  transform: rotateY(180deg);
+  .navbar-primary {
+    min-height: 6rem;
+  }
+
+  .navbar-primary .navbar-brand {
+    font-size: 1.6rem;
+  }
+
+  .navbar-primary .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .logo-header {
+    font-size: 12rem;
+    padding-top: 15.5rem;
+  }
+
+  .content-section .section-title-odd {
+    font-size: 2.3rem;
+  }
+
+  .content-section .section-title-even {
+    font-size: 2.3rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1.7rem;
+  }
+
+  .content-section .section-text {
+    font-size: 1.7rem;
+  }
+
+  .location-item {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .location-text {
+    font-size: 1.3rem;
+  }
+
+  .location-text--down {
+    font-size: 1.3rem;
+  }
+
+  .location-text--last {
+    font-size: 1.3rem;
+  }
+
+  footer .copyright {
+    font-size: 1.7rem;
+    padding-top: 1.5rem;
+  }
 }
