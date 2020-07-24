@@ -4,13 +4,9 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --light-black: #111111;
   --alpha-white: rgba(242, 242, 242, 0.4);
-  --light-grey: #f5f6f7;
-  --red: #c60600;
-  --dark-red: #9b0000;
-  --light-red: #ff5131;
-  --red-low-opacity: rgba(2013, 0, 0, 0.5);
+  --grey: #cccccc;
+  --red: #ac0500;
 }
 
 body {
@@ -27,7 +23,7 @@ body {
 .content-section .section-title-odd {
   font-family: "montserrat-bold", serif;
   font-size: 1.55rem;
-  color: var(--white);
+  color: var(--black);
   padding-bottom: 1.5rem;
   letter-spacing: 5px;
 }
@@ -45,23 +41,15 @@ body {
   font-size: 1.1rem;
   padding-bottom: 1rem;
   padding-top: 0.5rem;
-  color: var(--alpha-white);
-}
-
-.content-section .section-text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
-  padding-bottom: 1rem;
-  padding-top: 0.5rem;
   color: var(--black);
 }
 
 .section-odd {
-  background-color: var(--light-black);
+  background-color: var(--white);
 }
 
 .section-even {
-  background-color: var(--white);
+  background-color: var(--grey);
 }
 
 .center-things {
@@ -70,25 +58,12 @@ body {
 }
 
 /* Navbar */
-.navbar-higher {
-  height: 6vh;
-  background: var(--black);
-}
-
-.navbar-higher p {
-  padding-top: 0.7%;
-  padding-left: 1.5%;
-  color: var(--white);
-  font-family: "montserrat-bold", serif;
-  font-size: 0.8rem;
-}
-
 .navbar-brand {
   font-family: "montserrat-bold", serif;
 }
 
 .navbar-primary {
-  background-color: var(--light-black);
+  background-color: var(--red);
   color: var(--white);
   min-height: 4rem;
 }
@@ -108,7 +83,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--red) !important;
+  color: var(--black) !important;
 }
 
 .sticky.is-sticky {
@@ -207,7 +182,9 @@ body {
 
 /* Location */
 .card-address {
-  background-color: var(--light-black);
+  background-image: linear-gradient(to right, #ffffff, #ac0500, #ac0500, #ffffff);
+  border: 0.2px solid #000000;
+  border-radius: 10px;
 }
 
 .location-item {
@@ -221,18 +198,18 @@ body {
 
 .location-text {
   margin-bottom: 0;
-  color: var(--alpha-white);
+  color: var(--white);
   letter-spacing: 2px;
 }
 
 .location-text--down {
   margin-bottom: 0;
-  color: var(--alpha-white);
+  color: var(--white);
   letter-spacing: 2px;
 }
 
 .location-text--last {
-  color: var(--alpha-white);
+  color: var(--white);
   letter-spacing: 2px;
   padding-bottom: 1rem;
 }
@@ -240,7 +217,7 @@ body {
 /* Footer */
 footer {
   height: 10vh;
-  background: var(--black);
+  background: var(--red);
 }
 
 footer .copyright {
@@ -250,15 +227,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  .navbar-higher {
-    height: 4vh;
-  }
-
-  .navbar-higher p {
-    padding-top: 1.5%;
-    font-size: 0.8rem;
-  }
-
   .navbar-primary {
     min-height: 4rem;
   }
@@ -323,15 +291,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 595px) {
-  .navbar-higher {
-    height: 4vh;
-  }
-
-  .navbar-higher p {
-    padding-top: 1.5%;
-    font-size: 0.8rem;
-  }
-
   .navbar-primary {
     min-height: 4rem;
   }
@@ -396,15 +355,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 596px) and (max-width: 690px) {
-  .navbar-higher {
-    height: 4vh;
-  }
-
-  .navbar-higher p {
-    padding-top: 1.5%;
-    font-size: 0.8rem;
-  }
-
   .navbar-primary {
     min-height: 4rem;
   }
@@ -469,15 +419,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 691px) and (max-width: 800px) {
-  .navbar-higher {
-    height: 4vh;
-  }
-
-  .navbar-higher p {
-    padding-top: 1.5%;
-    font-size: 0.8rem;
-  }
-
   .navbar-primary {
     min-height: 5rem;
   }
@@ -522,10 +463,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
-  .navbar-higher {
-    height: 3vh;
-  }
-
   .logo-header {
     padding-top: 28.5rem !important;
   }
@@ -536,11 +473,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
-  .navbar-higher p {
-    padding-top: 1.2%;
-    font-size: 0.8rem;
-  }
-
   .navbar-primary {
     min-height: 5rem;
   }
@@ -601,11 +533,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
-  .navbar-higher p {
-    padding-top: 1%;
-    font-size: 1rem;
-  }
-
   .navbar-primary {
     min-height: 5rem;
   }
@@ -646,11 +573,6 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 1825px) and (max-width: 1920px) {
-  .navbar-higher p {
-    padding-top: 1%;
-    font-size: 1.1rem;
-  }
-
   .navbar-primary {
     min-height: 6rem;
   }
